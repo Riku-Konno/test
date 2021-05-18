@@ -1,0 +1,82 @@
+
+@media (max-width:670px){
+    .all{
+        margin: 0 auto;
+        background-color: rgba(121, 117, 117, 0.1) ;
+    }
+    header{
+        height: 414px;
+        width: 100%;
+        position: relative;
+        background-color: transparent;
+    }
+    header .name{
+        width: 100%;
+        clear: left;
+        position: relative;
+    }
+    header p{
+        opacity: 0.7;
+        z-index: 1000;
+        font-size: 79px;
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        height: 79px;
+        line-height: 79px;
+    }
+    .header-photo{
+        clear: right;
+        position: absolute;
+    }
+    .header-photo img{
+        width: 100%;
+        height: auto;
+    }
+    .greet{
+        height: 300px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        line-height: 70px;
+    }
+    .greet p{
+        font-size: 20px;
+        height: 100%;
+    }
+
+    .main{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .main-content{
+        width: 300px;
+        height: 300px;
+        margin: calc((100vw - 300px)/2);
+    }
+    .front{
+        line-height: 300px;
+        font-size: 20px;
+    }
+    .back{
+        font-size: 15px;
+    }
+    .back h3{
+        font-size: 20px;
+        margin: 10px 0 30px 10px;
+    }
+    .message{
+        transition-property: none;
+    }
+    .message:hover{
+        width: 300px;
+    }
+    .m-des{
+        padding-top: 20px;
+
+    }
+
+}
+
